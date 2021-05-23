@@ -28,4 +28,11 @@ the data will get updated without refreshing the page.
 ### Setup
 
 ### Prerequisite:
+- Node JS
 
+### Create a New Project
+### Copy the entire Code Repo to the New Project Directory
+### Run npm install
+
+### It will setup the Project in your machine.
+### Thanks
