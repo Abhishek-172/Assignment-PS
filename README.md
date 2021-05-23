@@ -24,3 +24,7 @@ Now as per the User Choice Selection, the data will be set or cleared from the l
 After the Choice selection the URL will be formed as per the user choice selection (According to Filters)
 and then the required data will be fetched from the fetchData() function, a new markup will get generated and 
 the data will get updated without refreshing the page.
+
+### Setup
+
+#### prerequisite
