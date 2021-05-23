@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SpaceX Programs</title>
+        <link rel="stylesheet" href="/css/layout.css">
+    </head>
+    <body>
+        <div class="wrap">
+
+            <!-- Header / Nav-Bar / First Section-->
+
+            <div id="nav-bar"><p>SpaceX Launch Programs</p></div>
+
+            <!-- Second Section -->
+
+            <div id="small-wrap">
+
+                <!-- Inner Section -1  -->
+
+                <div id="filters">
+                    <div id="name-filter">Filters</div>
+                    <div id="name-launchyear">Launch Year</div>
+                    <hr>
+                    <div id="btn-group">
+                        <div id="btn-rows">
+
+                            <!-- On Clicking The Button, The Value will be passed to the 
+                            Javascript File and will be processed in the same file for fetching the 
+                            data from API , URL Generation.
+                            -->
+
+                            <button class="b-1" value="2006" onclick="myfunction(value)">2006</button>
+                            <button class="b-1" value="2007" onclick="myfunction(value)">2007</button>
+                        </div>
+                        <div id="btn-rows">
+                            <button class="b-1" value="2008" onclick="myfunction(value)">2008</button>
+                            <button class="b-1" value="2009" onclick="myfunction(value)">2009</button>
+                        </div>
+                        <div id="btn-rows">
+                            <button class="b-1" value="2010" onclick="myfunction(value)">2010</button>
+                            <button class="b-1" value="2011" onclick="myfunction(value)">2011</button>
+                        </div>
+                        <div id="btn-rows">
+                            <button class="b-1" value="2012" onclick="myfunction(value)">2012</button>
+                            <button class="b-1" value="2013" onclick="myfunction(value)">2013</button>
+                        </div>
+                        <div id="btn-rows">
+                            <button class="b-1" value="2014" onclick="myfunction(value)">2014</button>
+                            <button class="b-1" value="2015" onclick="myfunction(value)">2015</button>
+                        </div>
+                        <div id="btn-rows">
+                            <button class="b-1" value="2016" onclick="myfunction(value)">2016</button>
+                            <button class="b-1" value="2017" onclick="myfunction(value)">2017</button>
+                        </div>
+                        <div id="btn-rows">
+                            <button class="b-1" value="2018" onclick="myfunction(value)">2018</button>
+                            <button class="b-1" value="2019" onclick="myfunction(value)">2019</button>
+                        </div>
+                        <div id="btn-rows">
+                            <button class="b-1" value="2020" onclick="myfunction(value)">2020</button>
+                            <button class="b-1" value="2021" onclick="myfunction(value)">2021</button>
+                        </div>
+                    </div>
+                    <div id="successful-launch">Successful Launch</div>
+                    <hr>
+                    <div id="btn-group">
+                        <div id="btn-rows">
+
+                            <!-- On Clicking The Button, The Value will be passed to the 
+                            Javascript File and will be processed in the same file for fetching the 
+                            data from API , URL Generation.
+                            -->
+
+                            <button class="b-1" value="true" onclick="myfunctionx('launch_success',value)">True</button>
+                            <button class="b-1" value="false" onclick="myfunctionx('launch_success',value)">False</button>
+                        </div>
+                    </div>
+                    <div id="successful-landing">Successful Landing</div>
+                    <hr>
+                    <div id="btn-group">
+                        <div id="btn-rows">
+
+                            <!-- On Clicking The Button, The Value will be passed to the 
+                            Javascript File and will be processed in the same file for fetching the 
+                            data from API , URL Generation.
+                            -->
+
+
+                            <button class="b-1" value="true" onclick="myfunctionx('land_success',value)">True</button>
+                            <button class="b-1" value="false" onclick="myfunctionx('land_success',value)">False</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Inner Section -2 -->
+
+                <div id="main-content">
+                    <!-- Markup Will be Generated Using the JS File, via DOM Manipulation -->
+                </div>
+            </div>
+
+            <!-- Footer -->
+
+            <div id="footer"><b>Developed by:&nbsp;</b> Abhishek Pandey</div>
+        </div>
+    </body>
+
+    <!-- Using Axios For Fetching Data From API -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
+    <!-- Linking JS File -->
+    <script src="/js/layout.js"></script>
+</html>
