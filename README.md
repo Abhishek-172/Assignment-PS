@@ -11,5 +11,4 @@
 3.  https://api.spacexdata.com/v3/launches?limit=100&amp;launch_success=true&amp;land_success=true&amp;launch_year=2014
 4.  https://api.spacexdata.com/v3/launches?limit=100
 
-
-  
+- Applied filters change the URL and update the Page with latest records without refreshing the page.
