@@ -12,3 +12,11 @@
 4.  https://api.spacexdata.com/v3/launches?limit=100
 
 - Applied filters change the URL and update the Page with latest records without refreshing the page.
+
+### Approach Followed:
+User selects the Button in the initial launch program page and once the button is clicked the data will get saved in the localstorage as the Key-Value Pairs,
+The same approach will be followed for all the 3 filters
+1. Launch Year
+2. Launch Succes
+3. Land Success
+
